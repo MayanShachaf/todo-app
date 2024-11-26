@@ -1,0 +1,81 @@
+/* Task container */
+/* Task container */
+.delete {
+    
+    background: #cef4e7;
+    color: rgb(45, 122, 78);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(181, 221, 180, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .delete:hover {
+    transform: scale(1.05);
+  }
+  
+ 
+  
+  .task-container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between task text and delete button */
+    align-items: center; /* Vertically align items */
+    background-color: #ffffff; /* White background */
+    margin-bottom: 10px; /* Space between tasks */
+    padding: 15px; /* Padding inside the task box */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    font-size: 16px; /* Readable font size */
+  }
+  
+ 
+  .task-content {
+    display: flex; /* Align checkbox and text in a row */
+    align-items: center; /* Center align vertically */
+    gap: 10px; /* Space between checkbox and text */
+  }
+  /* Checkbox styles */
+ 
+/* Task text inside the task container */
+.task-container span {
+    font-size: 18px; /* Larger font size */
+    font-weight: bold; /* Make text bolder */
+    color: #0c3406b4;; /* Ensure dark color */
+  }
+
+  /* Task container */
+.task-container {
+    background-color: #ffffff; /* White background */
+    margin-bottom: 10px; /* Space between tasks */
+    padding: 15px; /* Padding inside the task box */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Readable font size */
+    display: flex;
+    
+    gap: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.2s ease;
+  }
+  
+  .task-container:hover {
+    
+    background-color: #f7f7f7; /* Light hover background */
+  }
+  
+  /* Checkbox */
+  .task-checkbox {
+    width: 20px;
+    height: 20px;
+    accent-color: #d2e9db; /* Styled checkbox */
+  }
+  
+  /* Task text */
+  /* Task text */
+  .task-list-item {
+    margin-bottom: 10px; /* Space between list items */
+  }
+ 

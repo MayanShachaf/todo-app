@@ -1,0 +1,69 @@
+/* Container for the form */
+.task-form-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: space-between;
+    
+   
+  }
+  
+  /* Input label */
+  .task-form-label {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Input field */
+  .task-form-input {
+    flex-grow: 1; /* Allow the input to grow and take up available space */
+    padding: 10px; /* Inner padding for a clean look */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ccc; /* Light border */
+    font-size: 16px; /* Font size */
+    
+  }
+  
+  .task-form-input:focus {
+    
+    box-shadow: 0 0 5px rgba(243, 244, 243, 0.5);
+  }
+  
+  /* Add button */
+  .task-form-button {
+   
+    background: #cef4e7;
+    color: rgb(45, 122, 78);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(181, 221, 180, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .task-form-button:hover {
+    transform: scale(1.05);
+  }
+  
+  .new_list-form-button {
+    background:  #bbe4d4;
+    color: rgb(45, 122, 78);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(181, 221, 180, 0.1);
+    transition: transform 0.2s, background-color 0.3s;
+  }
+  
+  .new_list-form-button:hover {
+    transform: scale(1.05);
+  }
+  

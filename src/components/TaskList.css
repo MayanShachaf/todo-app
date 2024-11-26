@@ -1,0 +1,8 @@
+/* Task list container */
+.task-list {
+    list-style: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  
